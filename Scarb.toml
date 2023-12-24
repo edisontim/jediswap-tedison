@@ -10,7 +10,7 @@ allowed-libfuncs-list.name = "all"
 
 [dependencies]
 starknet = "2.3.1"
-snforge_std = { git = "https://github.com/foundry-rs/starknet-foundry.git", tag = "v0.10.2" }
+
 [lib]
 sierra = true        # Enable Sierra codegen.
 casm = false         # Enable CASM codegen.
